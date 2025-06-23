@@ -1,0 +1,33 @@
+.headNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 36px;
+    background: linear-gradient(90deg, #f8fafc 0%, #e6521f 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-radius: 0 0 18px 18px;
+}
+
+.navBar {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px 24px;
+    border-radius: 12px;
+}
+
+.navLink {
+    color: #e6521f;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.navLink:hover {
+    background: #e6521f;
+    color: #fff;
+}
